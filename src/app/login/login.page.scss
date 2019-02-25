@@ -1,0 +1,22 @@
+ion-content{
+    --background: url('../../assets/imgs/Ber.jpg') center no-repeat;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+ ion-item {
+    --background: rgba(255,255,255,0.3);
+    --ion-background-color: rgba(255,255,255,0.3);
+}
+
+
+ion-list {
+    --background: rgba(255,255,255,0);
+    --ion-background-color: rgba(255,255,255,0);
+}
+#botoes{
+    position: absolute; bottom: 10px;
+}
