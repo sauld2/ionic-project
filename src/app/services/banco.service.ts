@@ -17,7 +17,9 @@ export class BancoService {
       //Criando Tabela Usuários
       db.executeSql("CREATE TABLE IF NOT EXISTS usuarios(\
         id INTEGER PRIMARY KEY AUTOINCREMENT,\
+        nome TEXT,\
         email TEXT,\
+        numero TEXT,\
         senha TEXT\
         )", []);
 

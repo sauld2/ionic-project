@@ -8,15 +8,15 @@
     <ion-content>
       <ion-menu-toggle>
       <ion-list>
-        <ion-item button>
+        <ion-item button [routerLink]="[ '/categoria']">
           <ion-label>Categoria</ion-label>
         </ion-item>
-        <ion-item button>
+        <ion-item button [routerLink]="[ '/support']">
           <ion-label>Support</ion-label>
         </ion-item>
-        <ion-item button>
-            <ion-label>Sair</ion-label>
-        </ion-item>
+        <ion-item button (click)="Sair()">
+          <ion-icon slot="start" name="inicio"></ion-icon> Sair
+              </ion-item>      
       </ion-list>
     </ion-menu-toggle>
     </ion-content>

@@ -5,12 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { InicioPage } from './inicio.page';
+import { CategoriaPage } from './categoria.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: InicioPage
+    component: CategoriaPage
   }
 ];
 
@@ -21,14 +21,6 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [InicioPage]
+  declarations: [CategoriaPage]
 })
-export class InicioPageModule {}
-export class SlideExample {
-  
-  slideOpts = {
-    initialSlide: 1,
-    speed: 400
-  };
-  constructor() {}
-}
+export class CategoriaPageModule {}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UsuarioService } from '../services/usuario.service';
 
 @Component({
   selector: 'app-criar-conta',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CriarContaPage implements OnInit {
 
-  constructor() { }
-
+  constructor( private ususario: UsuarioService) { }
+  Nome;
+  Email;
+  Numero;
+  Senha;
   ngOnInit() {
+  }
+  Cadastrar(){
+    this.ususario.inserir(this.Nome,this.Email,this.Numero,this.Senha);
   }
 
 }
