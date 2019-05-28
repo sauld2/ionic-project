@@ -5,12 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { IonicModule } from '@ionic/angular';
 
-import { CriarContaPage } from './criar-conta.page';
-import { Camera} from '@ionic-native/camera/ngx';
+import { PropagandaPage } from './propaganda.page';
+
 const routes: Routes = [
   {
     path: '',
-    component: CriarContaPage
+    component: PropagandaPage
   }
 ];
 
@@ -21,7 +21,6 @@ const routes: Routes = [
     IonicModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [CriarContaPage],
-  providers:[Camera]
+  declarations: [PropagandaPage]
 })
-export class CriarContaPageModule  {}
+export class PropagandaPageModule {}

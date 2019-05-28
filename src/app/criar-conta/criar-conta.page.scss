@@ -1,5 +1,5 @@
 ion-content{
-    --background: url('../../assets/imgs/Ber.jpg') center no-repeat;
+    // --background: url('../../assets/imgs/Ber.jpg') center no-repeat;
     
 }
 h1{
@@ -23,4 +23,9 @@ ion-list {
 }
 #botoes{
     position: absolute; bottom: 10px;
+}
+
+img {
+    position: relative;
+    left: 30%;
 }

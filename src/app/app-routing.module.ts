@@ -8,6 +8,7 @@ const routes: Routes = [
   { path: 'criar-conta', loadChildren: './criar-conta/criar-conta.module#CriarContaPageModule' },
   { path: 'inicio', loadChildren: './inicio/inicio.module#InicioPageModule' },  { path: 'categoria', loadChildren: './categoria/categoria.module#CategoriaPageModule' },
   { path: 'support', loadChildren: './support/support.module#SupportPageModule' },
+  { path: 'propaganda', loadChildren: './propaganda/propaganda.module#PropagandaPageModule' },
 
 
 ];

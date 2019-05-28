@@ -1,25 +1,29 @@
 
 <ion-content>
-
-        <h1 id="Login">Login</h1>
-<form [formGroup]="formulario">
-<ion-list>   
- <!--Login-->
-      <ion-item>
         
-          <ion-label position="floating">Email </ion-label>
-          <ion-input type="email" formControlName="email"></ion-input>
-      </ion-item>
- <!--Senha-->
-      <ion-item>
-              <ion-label position="floating">Senha </ion-label>
-              <ion-input type="password" formControlName="senha"></ion-input>
-      </ion-item>
-
-    </ion-list>
-    <div id="botoes">
-    <ion-button shape="round" (click)="clicou()"> Confirmar </ion-button>
-    <ion-button shape="round" routerLink="/criar-conta" > Criar Conta </ion-button>
-   </div>
-</form>
+        <h1 id="Login">Login</h1>
+        <form [formGroup]="formulario">
+                <ion-list>   
+                        <!--Login-->
+                        <ion-item>
+                                
+                                <ion-label position="floating">Email </ion-label>
+                                <ion-input type="email" formControlName="email"></ion-input>
+                        </ion-item>
+                        <!--Senha-->
+                        <ion-item>
+                                <ion-label position="floating">Senha </ion-label>
+                                <ion-input type="password" formControlName="senha"></ion-input>
+                        </ion-item>
+                        
+                </ion-list>
+                <div id="botoes">
+                        <<ion-tab-button href="https://example.com">
+                                <ion-icon name="globe"></ion-icon>
+                                <ion-label>Search</ion-label>
+                        </ion-tab-button>
+                        <ion-button shape="round" (click)="clicou()"> Confirmar </ion-button>
+                        <ion-button shape="round" routerLink="/criar-conta" > Criar Conta </ion-button>
+                </div>
+        </form>
 </ion-content>
