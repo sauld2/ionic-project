@@ -2,6 +2,7 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CriarContaPage } from './criar-conta.page';
+import * as firebase from 'firebase';
 
 describe('CriarContaPage', () => {
   let component: CriarContaPage;

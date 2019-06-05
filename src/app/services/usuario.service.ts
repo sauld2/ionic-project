@@ -7,7 +7,7 @@ import { BancoService } from './banco.service';
 export class UsuarioService  {
 
   protected tabela:string = 'usuarios';
-  inserir (Nome,Email,Senha,DataNacimento,Telefone,Sexo,Endereço){
+  inserir (Nome,Email,Senha,Telefone,Sexo){
     
 
 }}

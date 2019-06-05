@@ -37,7 +37,7 @@ export class AppComponent {
 
   //Cadastrar
   //Forma 1
-  //firebase.firestore().collection('usuarios').doc('1').set({nome:'Carlos', idade: 28});
+  //firebase.firestore().collection('usuarios').doc('1').set({Nome:'', Email:'',Senha:'',DataNacimento:'',Telefone:'',Sexo:'',Endereco:''});
   //Forma 2
   //let doc = firebase.firestore().collection('usuarios').doc();
   //let usuario = {id: doc.id, nome:'Carlos'};
